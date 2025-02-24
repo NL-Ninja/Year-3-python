@@ -1,0 +1,16 @@
+#constants intro
+
+#example
+PI = 3.14115927
+
+#constnts are declared in full caps
+
+pie = "apple" #var
+
+# some things in this universe are constatant
+FIELDGOAL = 2
+DUNK = 2
+FREE THROW =1
+THREEPOINTER= 3
+
+team1playerfouls = 0
