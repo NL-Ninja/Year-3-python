@@ -1,1 +1,7 @@
+#this is a comment
+#python ignores comments
+#comments explain stuff
 
+#Example
+name= input("what is your name ") #this is a var called name
+print("your name is " + name) #prints name
