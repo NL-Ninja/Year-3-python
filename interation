@@ -1,0 +1,67 @@
+#1.
+for i in range(10):
+ print("kebab")
+
+#-------------------------------------------
+#2
+for i in range(3, 25, 3):
+    print(i)
+
+#-------------------------------------------
+#3
+name = str(input("Input your name>>>"))
+repeat = int(input("how mant times should it be repeated>>>"))
+for i in range(repeat):
+  print(name)
+
+#-------------------------------------------
+#4
+number = int(input("Enter a times table: "))
+print("showing the",number,"times table")
+for i in range(1,13):
+  print(i ,"x", number, "=", i*number)
+  
+#-------------------------------------------
+#5
+for i in range(10, 0, -1):
+  print (i)
+print("!!Blast off!!")
+
+#-------------------------------------------
+#6
+rainbow =["red","orange","yellow","green","blue","indigo", "violet"]
+number =0
+for i in rainbow:
+  number = number + 1
+  print ("Colour",number,"is",i)
+  
+#-------------------------------------------
+#7
+num = int(input("give me an int below 100>>>"))
+for i in range(num, 0, -1):
+  print(i)
+  
+#-------------------------------------------
+#8
+import random
+for i in range(6):
+  num = random.randint(0,50)
+  print(num)
+  
+#-------------------------------------------
+#9
+import random
+for i in range(1, 9):
+  aray = random.randint(0,100000)
+  print("player ",i, aray)
+  
+#-------------------------------------------
+#10
+NumOfHouse = int(input("how many houses"))
+for i in range(1, NumOfHouse+1):
+  print("for house" ,i, "how many walls")
+  NumOfWall = int(input())
+  for j in range(1, NumOfWall+1):
+    print("for wall" ,j, "what colour")
+    input()
+#-------------------------------------------
